@@ -3,6 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Movies</title>
+		<style>
+			img{
+				display: block;
+				margin-top: 1em;
+			}
+			li{
+				display: inline-block;
+				padding: 1em;
+				font-size: 1.2em;
+			}
+		</style>
 	</head>
 	<body>
 		<h1>Movies in JSON for fun</h1>
@@ -20,7 +31,10 @@
 				json.forEach(elm=>{
 					console.log(elm.title);
 					let newelm = document.createElement('li');
+					let newimg = document.createElement('img');
 					newelm.textContent=elm.title;
+					newimg.src="images/thumbs/"+elm.poster;
+					newelm.appendChild(newimg);
 					ul.appendChild(newelm);
 				});
 			}

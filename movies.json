@@ -2,28 +2,31 @@
 	{
 		"title": "It",
 		"year": "2017",
-		"length": "135",
+		"length": 135,
 		"genres":["drama", "horror"],
 		"director": "Andy Muschietti",
 		"stars": ["Bill Skarsgård", "Jaeden Lieberher", "Finn Wolfhard", "Sophia Lillis"],
-		"resume": "A group of bullied kids band together when a monster, taking the appearance of a clown, begins hunting children."
+		"resume": "A group of bullied kids band together when a monster, taking the appearance of a clown, begins hunting children.",
+		"poster": "it.jpg"
 	},
 	{
 		"title": "Home Again",
 		"year": "2017",
-		"length": "97",
+		"length": 97,
 		"genres":["drama", "comedy", "romance"],
 		"director": "Hallie Meyers-Shyer",
 		"stars": ["Nat Wolff", "Reese Witherspoon", "Lake Bell", "Michael Sheen"],
-		"resume": "Life for a single mom in Los Angeles takes an unexpected turn when she allows three young guys to move in with her."
+		"resume": "Life for a single mom in Los Angeles takes an unexpected turn when she allows three young guys to move in with her.",
+		"poster": "home.jpg"
 	},
 	{
 		"title": "Rememory",
 		"year": "2017",
-		"length": "97",
+		"length": 111,
 		"genres":["drama", "mystery", "sci-fi"],
 		"director": "Mark Palansky",
 		"stars": ["Peter Dinklage", "Matt Ellis", "Jordana Largy", "Martin Donovan"],
-		"resume": "The widow of a wise professor stumbles upon one of his inventions that's able to record and play a person's memory."
+		"resume": "The widow of a wise professor stumbles upon one of his inventions that's able to record and play a person's memory.",
+		"poster": "rememory.jpg"
 	}
 ]
