@@ -5,8 +5,8 @@
 		<title>Movies</title>
 	</head>
 	<body>
-	<h1>Movies in JSON</h1>
-	<ul></ul>
+		<h1>Movies in JSON</h1>
+		<ul></ul>
 		<script>
 
 			let link = "movies.json";
@@ -17,10 +17,12 @@
 			}
 
 			function show(json){
-				json.forEach(elm=>console.log(elm.title));
-				let newelm = document.createElement('li');
-				newelm.textContent=elm.title;
-				ul.appendChild(newelm);
+				json.forEach(elm=>{
+					console.log(elm.title);
+					let newelm = document.createElement('li');
+					newelm.textContent=elm.title;
+					ul.appendChild(newelm);
+				});
 			}
 
 			getData(link);
